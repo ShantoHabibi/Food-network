@@ -9,10 +9,23 @@ h2{
     font-size: 40px;
     color: lightsalmon;
 }
+h4{
+    font-size: 25px;
+
+}
 .color-crimson{
     color: crimson;
 }
-section{
+.color-whith{
+    color: beige;
+}
+.color-black{
+    background-color: black;
+    padding-top: 2%;
+    padding-bottom: 5%;
+}
+
+.flexible-contain{
     display: flex;
     margin-bottom: 80px;
    
@@ -41,3 +54,20 @@ section{
     background-repeat: no-repeat;
     padding-left: 10%;
 }
+.recipie-item{
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 1%;
+    padding-right: 1%;
+    border-radius: 10%;
+    box-shadow: 10px 10px 40px gray;
+}
+.recipie-item img{
+    width: 100%;
+    padding-top: 5%;
+}
+.text-align{
+    text-align: center;
+}
+
+
